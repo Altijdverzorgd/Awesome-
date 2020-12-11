@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(./bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3rem;
+  background: rgba( 255, 255, 255, 0.10 );
+  border: 1px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.0px );
+  -webkit-backdrop-filter: blur( 1.0px );
+  border-radius: 10px;
+  }
+
+hr{
+    border-color: white;
+    border-width: 40px;
+    max-width: 65px;
+  }
+
+.buffer{
+  height: 2.5rem;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform:uppercase;
+}
+
+
+.btn-primary{
+  background: rgba( 255, 255, 255, 0.30 );
+  border: 1px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.0px );
+  -webkit-backdrop-filter: blur( 13.0px );
+  border-radius: 10px;
+  color: black;
+}
+
+.btn-primary:hover{
+  background: rgba( 255, 255, 255, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.0px );
+  -webkit-backdrop-filter: blur( 13.0px );
+  border-radius: 10px;
+  border-width: 4px;
+
+}
+
+  .btn-xl{
+    padding: 1rem 2rem;
+  }
